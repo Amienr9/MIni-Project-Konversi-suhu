@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    b{font-size:100px;
+    }
+   </style>
+
+    <link rel="stylesheet" href="Minicoding.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <title>Konversi Suhu</title>
+</head>
+<body>
+    <header>
+        <div id="Header">
+            <h1> Temperature Conversion </h1>
+        </div>
+    </header>
+    <section id="border">
+        <p id="definition"> Enter the temperature in degrees Celsius (°C) in the box below, then click the Convert button to get the conversion results in Fahrenheit (°F). </p>
+    
+    <div class="container">
+        <label for="input"> Celsius  </label> 
+        <div class="input-group">
+            <input
+                type="number"
+                id="input"
+                placeholder="Enter temperature in Celcius"/>
+                <button onclick="convert-celcius">Conversion</button>
+                <button onclick="Reset">Reset</button>
+                <button onclick="reverse-fahrenheit">Reverse</button>
+        </div> 
+        <div id="result"></div>
+        <div id="logic"></div>
+    </div>
+</section>
+</body>
+</html>
