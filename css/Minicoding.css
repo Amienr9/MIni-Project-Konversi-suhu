@@ -1,0 +1,40 @@
+body {background-color:#E4E2DD}
+#Header{
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size:30px;
+    color: #39503C;
+}
+#definition{
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    color: #4E6958;
+    max-width: 400px;
+    max-height: auto;
+    
+}
+input{
+    padding: 7px  ;
+    width: 300px;
+    border: 1px solid ;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+button{
+    background-color:#b7dfbd;
+    display: inline-block;
+    width: 25%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-inline: 2px;
+    margin-bottom: 20px;
+
+}
+
